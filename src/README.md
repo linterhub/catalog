@@ -1,1 +1,1 @@
-Source files
+This directory holds json files for every package manager with linter's url for linterhub.

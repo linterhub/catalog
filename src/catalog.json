@@ -1,0 +1,474 @@
+{
+    "$schema": "http://schema.linterhub.com/catalog.json",
+    "linters": [
+        {
+            "name": "alex",
+            "package": "https://www.npmjs.com/package/alex",
+            "languages": [
+                "Text"
+            ]
+        },
+        {
+            "name": "bandit",
+            "package": "https://pypi.org/project/bandit",
+            "languages": [
+                "Python"
+            ]
+        },
+        {
+            "name": "bootlint",
+            "package": "https://www.npmjs.com/package/bootlint",
+            "languages": [
+                "HTML"
+            ]
+        },
+        {
+            "name": "brakeman",
+            "package": "https://rubygems.org/gems/brakeman",
+            "languages": [
+                "Ruby"
+            ]
+        },
+        {
+            "name": "clinton",
+            "package": "https://www.npmjs.com/package/clinton",
+            "languages": [
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "codesniffer",
+            "package": "https://packagist.org/packages/squizlabs/php_codesniffer",
+            "languages": [
+                "PHP",
+                "JavaScript",
+                "CSS"
+            ]
+        },
+        {
+            "name": "coffeelint",
+            "package": "https://www.npmjs.com/package/coffeelint",
+            "languages": [
+                "CoffeeScript"
+            ]
+        },
+        {
+            "name": "colorguard",
+            "package": "https://www.npmjs.com/package/colorguard",
+            "languages": [
+                "CSS"
+            ]
+        },
+        {
+            "name": "csscomb",
+            "package": "https://www.npmjs.com/package/csscomb",
+            "languages": [
+                "CSS"
+            ],
+            "configs": [
+                ".csscomb.json"
+            ]
+        },
+        {
+            "name": "csslint",
+            "package": "https://www.npmjs.com/package/csslint",
+            "languages": [
+                "CSS",
+                "OOCSS",
+                "Less"
+            ],
+            "configs": [
+                ".csslintrc"
+            ]
+        },
+        {
+            "name": "eslint",
+            "package": "https://www.npmjs.com/package/eslint",
+            "languages": [
+                "JavaScript",
+                "JSX"
+            ],
+            "configs": [
+                ".eslintrc",
+                ".eslintrc.json",
+                ".eslintrc.yaml",
+                ".eslintrc.yml",
+                ".eslintrc.js"
+            ]
+        },
+        {
+            "name": "flake8",
+            "package": "https://pypi.org/project/flake8",
+            "languages": [
+                "Python"
+            ]
+        },
+        {
+            "name": "flay",
+            "package": "https://rubygems.org/gems/flay",
+            "languages": [
+                "Ruby"
+            ]
+        },
+        {
+            "name": "flog",
+            "package": "https://rubygems.org/gems/flog",
+            "languages": [
+                "Ruby"
+            ]
+        },
+        {
+            "name": "html-inspector",
+            "package": "https://www.npmjs.com/package/html-inspector",
+            "languages": [
+                "HTML"
+            ]
+        },
+        {
+            "name": "htmlhint",
+            "package": "https://www.npmjs.com/package/htmlhint",
+            "languages": [
+                "HTML"
+            ]
+        },
+        {
+            "name": "jedi",
+            "package": "https://www.npmjs.com/package/jedi",
+            "languages": [
+                "Pug",
+                "JEDI",
+                "CoffeeCup"
+            ]
+        },
+        {
+            "name": "jscpd",
+            "package": "https://www.npmjs.com/package/jscpd",
+            "languages": [
+                "JavaScript",
+                "Java",
+                "YAML",
+                "CoffeeScript",
+                "C++",
+                "Haxe",
+                "PHP",
+                "C#",
+                "TypeScript",
+                "Go",
+                "Python",
+                "HTML",
+                "Ruby",
+                "C",
+                "SCSS",
+                "Less",
+                "CSS",
+                "Erlang",
+                "Swift",
+                "XML",
+                "Objective-C",
+                "Puppet",
+                "Twig",
+                "Vue",
+                "Scala",
+                "Lua",
+                "Perl"
+            ],
+            "configs": [
+                ".cpd.yaml"
+            ]
+        },
+        {
+            "name": "jscs",
+            "package": "https://www.npmjs.com/package/jscs",
+            "languages": [
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "jshint",
+            "package": "https://www.npmjs.com/package/jshint",
+            "languages": [
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "jslint",
+            "package": "https://www.npmjs.com/package/jslint",
+            "languages": [
+                "JavaScript"
+            ],
+            "configs": [
+                "jslint.conf",
+                ".jslint.conf"
+            ]
+        },
+        {
+            "name": "jsonlint",
+            "package": "https://www.npmjs.com/package/jsonlint",
+            "languages": [
+                "JSON"
+            ]
+        },
+        {
+            "name": "lesslint",
+            "package": "https://www.npmjs.com/package/lesslint",
+            "languages": [
+                "Less"
+            ]
+        },
+        {
+            "name": "lizard",
+            "package": "https://pypi.org/project/lizard",
+            "languages": [
+                "Objective-C",
+                "C",
+                "C++",
+                "Java",
+                "C#",
+                "JavaScript",
+                "Swift",
+                "Python",
+                "Ruby",
+                "PHP",
+                "Scala",
+                "GDScript",
+                "TTCN-3"
+            ]
+        },
+        {
+            "name": "markdownlint",
+            "package": "https://www.npmjs.com/package/markdownlint-cli",
+            "languages": [
+                "Markdown"
+            ]
+        },
+        {
+            "name": "nsp",
+            "package": "https://www.npmjs.com/package/nsp",
+            "languages": [
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "ocstyle",
+            "package": "https://pypi.org/project/ocstyle",
+            "languages": [
+                "Python",
+                "Objective-C"
+            ]
+        },
+        {
+            "name": "php-assumptions",
+            "package": "https://packagist.org/packages/rskuipers/php-assumptions",
+            "languages": [
+                "PHP"
+            ]
+        },
+        {
+            "name": "phpmd",
+            "package": "https://packagist.org/packages/phpmd/phpmd",
+            "languages": [
+                "PHP"
+            ]
+        },
+        {
+            "name": "phpmetrics",
+            "package": "https://packagist.org/packages/phpmetrics/phpmetrics",
+            "languages": [
+                "PHP"
+            ]
+        },
+        {
+            "name": "phpsa",
+            "package": "https://packagist.org/packages/ovr/phpsa",
+            "languages": [
+                "PHP"
+            ]
+        },
+        {
+            "name": "plato",
+            "package": "https://www.npmjs.com/package/plato",
+            "languages": [
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "pmd",
+            "package": "https://chocolatey.org/packages/pmd",
+            "languages": [
+                "Apex",
+                "JavaScript",
+                "Java",
+                "JSP",
+                "PLSQL",
+                "Maven POM",
+                "Apache Velocity",
+                "XML",
+                "XSLT"
+            ]
+        },
+        {
+            "name": "polylint",
+            "package": "https://www.npmjs.com/package/polylint",
+            "languages": [
+                "HTML",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "prettier",
+            "package": "https://www.npmjs.com/package/prettier",
+            "languages": [
+                "JavaScript",
+                "TypeScript",
+                "CSS",
+                "SCSS",
+                "Less", 
+                "JSX",
+                "Vue",
+                "GraphQL",
+                "JSON",
+                "Markdown"
+            ],
+            "configs": [
+                ".prettierrc",
+                "prettier.config.js"
+            ]
+        },
+        {
+            "name": "proselint",
+            "package": "https://pypi.org/project/proselint",
+            "languages": [
+                "Markdown"
+            ]
+        },
+        {
+            "name": "prospector",
+            "package": "https://pypi.org/project/prospector",
+            "languages": [
+                "Python"
+            ],
+            "configs": [
+                ".prospector"
+            ]
+        },
+        {
+            "name": "pug-lint",
+            "package": "https://www.npmjs.com/package/pug-lint",
+            "languages": [
+                "Jade"
+            ]
+        },
+        {
+            "name": "puppet-lint",
+            "package": "https://rubygems.org/gems/puppet-lint",
+            "languages": [
+                "Ruby"
+            ]
+        },
+        {
+            "name": "pycodestyle",
+            "package": "https://pypi.org/project/pycodestyle",
+            "languages": [
+                "Python"
+            ]
+        },
+        {
+            "name": "pyflakes",
+            "package": "https://pypi.org/project/pyflakes",
+            "languages": [
+                "Python"
+            ]
+        },
+        {
+            "name": "pylint",
+            "package": "https://pypi.org/project/pylint",
+            "languages": [
+                "Python"
+            ]
+        },
+        {
+            "name": "radon",
+            "package": "https://pypi.org/project/radon",
+            "languages": [
+                "Python"
+            ]
+        },
+        {
+            "name": "remark-lint",
+            "package": "https://www.npmjs.com/package/remark-cli",
+            "languages": [
+                "Markdown"
+            ]
+        },
+        {
+            "name": "rubocop",
+            "package": "https://rubygems.org/gems/rubocop",
+            "languages": [
+                "Ruby"
+            ]
+        },
+        {
+            "name": "ruby-lint",
+            "package": "https://rubygems.org/gems/ruby-lint",
+            "languages": [
+                "Ruby"
+            ]
+        },
+        {
+            "name": "sass-lint",
+            "package": "https://www.npmjs.com/package/sass-lint",
+            "languages": [
+                "Sass",
+                "SCSS"
+            ]
+        },
+        {
+            "name": "scss-lint",
+            "package": "https://rubygems.org/gems/scss-lint",
+            "languages": [
+                "SCSS"
+            ]
+        },
+        {
+            "name": "sitevalidator",
+            "package": "https://rubygems.org/gems/site_validator",
+            "languages": [
+                "Ruby"
+            ]
+        },
+        {
+            "name": "standard",
+            "package": "https://www.npmjs.com/package/standard",
+            "languages": [
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "stylelint",
+            "package": "https://www.npmjs.com/package/stylelint",
+            "languages": [
+                "CSS",
+                "Less",
+                "SCSS"
+            ],
+            "configs": [
+                ".stylelintrc",
+                "stylelint.config.js"
+            ]
+        },
+        {
+            "name": "tslint",
+            "package": "https://www.npmjs.com/package/tslint",
+            "languages": [
+                "TypeScript"
+            ]
+        },
+        {
+            "name": "xo",
+            "package": "https://www.npmjs.com/package/xo",
+            "languages": [
+                "JavaScript"
+            ]
+        }
+    ]
+}
