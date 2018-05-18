@@ -1,10 +1,10 @@
 # Pull Requests for GitHub repository settings https://github.com/apps/settings
 repository:
   # A short description of the repository that will show up on GitHub
-  description: repository template for github
+  description: catalog of linters
 
   # A URL with more information about the repository
-  homepage: https://repometric.com
+  homepage: https://catalog.linterhub.com
 
   # Either `true` to enable issues for this repository, `false` to disable them.
   has_issues: true
