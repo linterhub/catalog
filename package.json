@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "build": "npm run catalod-build && npm run bundle",
+        "build": "npm run catalog-build && npm run bundle",
         "bundle": "node script/js/engine.bundle.js",
         "catalog-build": "node script/js/catalog.build.js"
     },
