@@ -1,0 +1,22 @@
+[
+    {
+        "name": "npm",
+        "url": "npmjs.com"
+    },
+    {
+        "name": "pip",
+        "url": "pypi.org"
+    },
+    {
+        "name": "gem",
+        "url": "rubygems.org"
+    },
+    {
+        "name": "composer",
+        "url": "packagist.org"
+    },
+    {
+        "name": "chocolatey",
+        "url": "chocolatey.org"
+    }
+]
