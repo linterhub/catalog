@@ -9,12 +9,15 @@ const catalog = require('../../src/catalog.json').linters;
 const managers = require('./catalog/managers.json');
 const buildFolder = './build';
 
+mkdirp.sync(path.join(buildFolder));
+
 const folders = finder.from('./src').findDirectories();
 folders.forEach(linter => ncp(linter, path.join('./build', path.basename(linter)), function (err) {
     const name = path.basename(linter);
     if (err) {
         console.log(`Fail: ${name}`);
         console.log(err);
+        process.exitCode = 1;
     } else {
         console.log(`OK: ${name}`)
     }
