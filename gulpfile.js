@@ -7,14 +7,6 @@ var path = {
     dest: './build'
 };
 
-gulp.task('static', function() {
-    var stream = gulp
-        .src('CNAME')
-        .pipe(gulp.dest('build'));
-    return stream;
-})
-
-
 // Clean output
 gulp.task('clean', function () {
     return del([
