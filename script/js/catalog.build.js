@@ -6,8 +6,33 @@ const finder = require('fs-finder');
 const ncp = require('ncp');
 
 const catalog = require('../../src/catalog.json').linters;
-const managers = require('./catalog/managers.json');
 const buildFolder = './build';
+
+const npmParser = require('./parsers/npm.parser.js');
+const pipParser = require('./parsers/pip.parser.js');
+
+const parsers = [
+    {
+        name: "npm",
+        instance: new npmParser(buildFolder)
+    },
+    {
+        name: "pip",
+        instance: new pipParser(buildFolder)
+    }/*,
+    {
+        name: "gem",
+        url: "rubygems.org"
+    },
+    {
+        name: "composer",
+        url: "packagist.org"
+    },
+    {
+        name: "chocolatey",
+        url: "chocolatey.org"
+    }*/
+]
 
 mkdirp.sync(path.join(buildFolder));
 
@@ -23,65 +48,9 @@ folders.forEach(linter => ncp(linter, path.join('./build', path.basename(linter)
     }
 }));
 
-catalog.forEach((linter, index) => {
-    let manager = managers.find(manager => linter.package.includes(manager.url));
-    switch (manager.name) {
-        case 'npm':
-            packageJson(linter.name, { version: 'latest', fullMetadata: true }).then(json => {
-                mkdirp.sync(path.join(buildFolder, linter.name));
-                const meta = {
-                    '$schema': 'https://schema.linterhub.com/meta.json',
-                    name: json.name,
-                    description: json.description,
-                    url: json.homepage,
-                    languages: linter.languages,
-                    extensions: linter.extensions,
-                    configs: linter.configs,
-                    license: json.license
-                }
-                let formatted = JSON.stringify(meta, null, 4);
-                const metaPath = path.join(buildFolder, linter.name, 'meta.json')
-                fs.writeFileSync(metaPath, formatted + '\n');
-
-                const deps = {
-                    '$schema': 'https://schema.linterhub.com/deps.json',
-                    name: json.name,
-                    dependencies: [
-                        {
-                            manager: "platform",
-                            package: manager.name
-                        }
-                    ]
-                }
-
-                for (var key in json.dependencies) {
-                    if (json.dependencies.hasOwnProperty(key)) {
-                        deps.dependencies.push({
-                            manager: manager.name,
-                            package: key,
-                            version: json.dependencies[key]
-                        });
-                    }
-                }
-
-                deps.dependencies.push({
-                    manager: manager.name,
-                    package: linter.name,
-                    version: json.version,
-                    linter: true
-                });
-
-                formatted = JSON.stringify(deps, null, 4);
-                const depsPath = path.join(buildFolder, linter.name, 'deps.json')
-                fs.writeFileSync(depsPath, formatted + '\n');
-
-                console.log(`OK: ${linter.name}`);
-            })
-                .catch((error) => {
-                    console.log(`Fail: ${linter.name}`);
-                    console.log(error.errors);
-                    process.exitCode = 1;
-                });
-            break;
+catalog.forEach((linter) => {
+    const parser = parsers.find(parser => linter.package.includes(parser.instance.url));
+    if (parser) {
+        parser.instance.run(linter)
     }
 })
