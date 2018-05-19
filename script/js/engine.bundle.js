@@ -9,7 +9,7 @@ const requiredFiles = ['deps', 'meta'];
 
 const folders = finder.from('build')
     .findDirectories()
-    .filter(x => !path.basename(x).includes('.'));
+    .filter(x => !path.join(x, '../..').includes('build'));
 
 const bundle =
 {

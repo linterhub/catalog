@@ -58,7 +58,7 @@ module.exports = class {
 
         deps.dependencies[0].push({
             manager: this.managerName,
-            package: linter.name,
+            package: json.name,
             version: json.version,
             target: true
         });

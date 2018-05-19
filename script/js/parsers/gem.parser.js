@@ -19,7 +19,7 @@ module.exports = class {
 
         const meta = {
             '$schema': 'https://schema.linterhub.com/meta.json',
-            name: jsonBasic.name,
+            name: linter.name,
             description: jsonVersion.description,
             url: jsonBasic.homepage_uri,
             languages: linter.languages,
@@ -56,7 +56,7 @@ module.exports = class {
 
         deps.dependencies[0].push({
             manager: this.managerName,
-            package: linter.name,
+            package: jsonBasic.name,
             version: jsonVersion.number,
             target: true
         });
