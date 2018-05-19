@@ -14,13 +14,18 @@ module.exports = class {
         this.url = "pypi.org"
     }
 
-    run(linter) {
+    run(linter, version = null) {
         let parsed = linter.package.match(/.*pypi\.org\/project\/([A-Z0-9a-z]+).*/)
         if (parsed.length > 1){
-            const packageName = parsed[1]
+            let packageName = parsed[1]
+            if (version) {
+                packageName += `/${version}`
+            }
             const url = `https://pypi.org/pypi/${packageName}/json`
+            
             const buildFolder = this.buildFolder
             const managerName = this.managerName
+            const that = this
 
             request(url, function (error, response, body) {
                 if (error){
@@ -29,7 +34,19 @@ module.exports = class {
                     process.exitCode = 1;
                 } else {
                     const json = JSON.parse(body)
+
+                    if (!version){
+                        for (var key in json.releases) {
+                            if (key) {
+                                that.run(linter, key)
+                            }
+                        }
+                    }
+
                     mkdirp.sync(path.join(buildFolder, linter.name));
+                    if (version) {
+                        mkdirp.sync(path.join(buildFolder, linter.name, version));
+                    }
 
                     const meta = {
                         '$schema': 'https://schema.linterhub.com/meta.json',
@@ -42,7 +59,10 @@ module.exports = class {
                         license: json.info.license
                     }
                     let formatted = JSON.stringify(meta, null, 4);
-                    const metaPath = path.join(buildFolder, linter.name, 'meta.json')
+                    let metaPath = path.join(buildFolder, linter.name, 'meta.json')
+                    if (version) {
+                        metaPath = path.join(buildFolder, linter.name, version, 'meta.json')
+                    }
                     fs.writeFileSync(metaPath, formatted + '\n');
 
                     const deps = {
@@ -85,10 +105,13 @@ module.exports = class {
                     });
 
                     formatted = JSON.stringify(deps, null, 4);
-                    const depsPath = path.join(buildFolder, linter.name, 'deps.json')
+                    let depsPath = path.join(buildFolder, linter.name, 'deps.json')
+                    if (version) {
+                        depsPath = path.join(buildFolder, linter.name, version, 'deps.json')
+                    }
                     fs.writeFileSync(depsPath, formatted + '\n');
 
-                    console.log(`OK: ${linter.name}`);
+                    console.log(`OK: ${linter.name} ${json.info.version}`);
                 }
             });
         }

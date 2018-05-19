@@ -6,11 +6,16 @@ const path = require('path');
 const finder = require('fs-finder');
 const bundlePath = 'build/bundle.json';
 const requiredFiles = ['deps', 'meta'];
-const folders = finder.from('build').findDirectories();
+
+const folders = finder.from('build')
+    .findDirectories()
+    .filter(x => !path.basename(x).includes('.'));
+
 const bundle =
 {
     "$schema": "https://schema.linterhub.com/bundle.json"
 };
+
 const results = folders.map((folder) => {
     const fc = (file) => fs.readFileSync(path.join(folder, file + '.json'));
     const name = path.basename(folder);
