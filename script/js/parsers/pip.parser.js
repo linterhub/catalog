@@ -4,7 +4,7 @@ const packageJson = require('package-json');
 const path = require('path');
 const mkdirp = require('mkdirp');
 const fs = require('fs');
-const request = require('request')
+const request = require('request');
 
 module.exports = class {
 
@@ -37,7 +37,7 @@ module.exports = class {
 
                     if (!version){
                         for (var key in json.releases) {
-                            if (key) {
+                            if (key && json.releases[key].length > 0) {
                                 that.run(linter, key)
                             }
                         }
