@@ -20,7 +20,7 @@ module.exports = class {
         }
         const meta = {
             '$schema': 'https://schema.linterhub.com/meta.json',
-            name: json.name,
+            name: linter.name,
             description: json.description,
             url: json.homepage,
             languages: linter.languages,
@@ -37,18 +37,18 @@ module.exports = class {
 
         const deps = {
             '$schema': 'https://schema.linterhub.com/deps.json',
-            name: json.name,
-            dependencies: [
+            name: linter.name,
+            dependencies: [[
                 {
                     manager: "platform",
                     package: this.managerName
                 }
-            ]
+            ]]
         }
 
         for (var key in json.dependencies) {
             if (json.dependencies.hasOwnProperty(key)) {
-                deps.dependencies.push({
+                deps.dependencies[0].push({
                     manager: this.managerName,
                     package: key,
                     version: json.dependencies[key]
@@ -56,11 +56,11 @@ module.exports = class {
             }
         }
 
-        deps.dependencies.push({
+        deps.dependencies[0].push({
             manager: this.managerName,
             package: linter.name,
             version: json.version,
-            linter: true
+            target: true
         });
 
         formatted = JSON.stringify(deps, null, 4);

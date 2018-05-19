@@ -1,6 +1,5 @@
 'use strict';
 
-const packageJson = require('package-json');
 const path = require('path');
 const mkdirp = require('mkdirp');
 const fs = require('fs');
@@ -67,20 +66,20 @@ module.exports = class {
 
                     const deps = {
                         '$schema': 'https://schema.linterhub.com/deps.json',
-                        name: json.name,
-                        dependencies: [
+                        name: linter.name,
+                        dependencies: [[
                             {
                                 manager: "platform",
                                 package: managerName
                             }
-                        ]
+                        ]]
                     }
 
                     if (json.info.requires_dist) {
                         for (var index in json.info.requires_dist) {
                             let parsed = json.info.requires_dist[index].match(/([^\s]+)\s\((.+)\).*/)
                             if (parsed ? parsed.length > 1 : false) {
-                                deps.dependencies.push({
+                                deps.dependencies[0].push({
                                     manager: managerName,
                                     package: parsed[1],
                                     version: parsed[2]
@@ -88,7 +87,7 @@ module.exports = class {
                             } else {
                                 parsed = json.info.requires_dist[index].match(/([a-z0-9]+).*/)
                                 if (parsed ? parsed.length > 1 : false) {
-                                    deps.dependencies.push({
+                                    deps.dependencies[0].push({
                                         manager: managerName,
                                         package: parsed[1]
                                     }); 
@@ -97,11 +96,11 @@ module.exports = class {
                         }
                     }
 
-                    deps.dependencies.push({
+                    deps.dependencies[0].push({
                         manager: managerName,
                         package: linter.name,
                         version: json.version,
-                        linter: true
+                        target: true
                     });
 
                     formatted = JSON.stringify(deps, null, 4);

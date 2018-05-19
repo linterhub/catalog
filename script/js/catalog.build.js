@@ -10,6 +10,7 @@ const buildFolder = './build';
 
 const npmParser = require('./parsers/npm.parser.js');
 const pipParser = require('./parsers/pip.parser.js');
+const gemParser = require('./parsers/gem.parser.js');
 
 const parsers = [
     {
@@ -19,11 +20,11 @@ const parsers = [
     {
         name: "pip",
         instance: new pipParser(buildFolder)
-    }/*,
+    },
     {
         name: "gem",
-        url: "rubygems.org"
-    },
+        instance: new gemParser(buildFolder)
+    }/*,
     {
         name: "composer",
         url: "packagist.org"
