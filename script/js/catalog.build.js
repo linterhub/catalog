@@ -12,6 +12,7 @@ const npmParser = require('./parsers/npm.parser.js');
 const pipParser = require('./parsers/pip.parser.js');
 const gemParser = require('./parsers/gem.parser.js');
 const composerParser = require('./parsers/composer.parser.js');
+const chocolateyParser = require('./parsers/chocolatey.parser.js');
 
 const parsers = [
     {
@@ -29,11 +30,11 @@ const parsers = [
     {
         name: "composer",
         instance: new composerParser(buildFolder)
-    }/*,
+    },
     {
         name: "chocolatey",
-        url: "chocolatey.org"
-    }*/
+        instance: new chocolateyParser(buildFolder)
+    }
 ]
 
 mkdirp.sync(path.join(buildFolder));

@@ -1,5 +1,5 @@
 {
-    "$schema": "http://schema.linterhub.com/catalog.json",
+    "$schema": "https://schema.linterhub.com/catalog.json",
     "linters": [
         {
             "name": "alex",
