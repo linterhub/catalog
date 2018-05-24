@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "npm run catalog-build && npm run bundle",
-    "bundle": "node script/js/engine.bundle.js",
-    "catalog-build": "node script/js/catalog.build.js"
+    "bundle": "node ext/github/package-parser/script/js/engine.bundle.js",
+    "catalog-build": "node ext/github/package-parser/script/js/catalog.build.js"
   },
   "license": "MIT",
   "repository": {

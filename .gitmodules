@@ -1,0 +1,3 @@
+[submodule "ext/github/package-parser"]
+	path = ext/github/package-parser
+	url = https://github.com/svoboda-rabsvto/package-parser.git
