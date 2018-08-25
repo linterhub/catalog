@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "xo",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "npm"
+            },
+            {
+                "manager": "npm",
+                "package": "xo",
+                "target": true
+            }
+        ]
+    ]
+}

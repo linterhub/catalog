@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "sass-lint",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "npm"
+            },
+            {
+                "manager": "npm",
+                "package": "sass-lint",
+                "target": true
+            }
+        ]
+    ]
+}

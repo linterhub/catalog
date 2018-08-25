@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "lesslint",
+    "description": "lint your less code",
+    "url": "https://github.com/ecomfe/node-lesslint#readme",
+    "languages": [
+        "Less"
+    ]
+}

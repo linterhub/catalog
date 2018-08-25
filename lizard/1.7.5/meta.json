@@ -1,0 +1,22 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "lizard",
+    "description": "A simple code complexity analyzer without caring about the C/C++ header files or Java imports.\nIt can deal with Java/C/C++/Objective C code. It counts the cyclomatic complexity number etc.",
+    "url": "https://github.com/terryyin/lizard",
+    "languages": [
+        "Objective-C",
+        "C",
+        "C++",
+        "Java",
+        "C#",
+        "JavaScript",
+        "Swift",
+        "Python",
+        "Ruby",
+        "PHP",
+        "Scala",
+        "GDScript",
+        "TTCN-3"
+    ],
+    "license": "UNKNOWN"
+}

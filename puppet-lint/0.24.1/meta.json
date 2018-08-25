@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "puppet-lint",
+    "description": "Puppet is a declarative language for expressing system configuration, a client and server for distributing it, and a library for realizing the configuration.",
+    "url": "https://github.com/puppetlabs/puppet",
+    "languages": [
+        "Ruby"
+    ]
+}

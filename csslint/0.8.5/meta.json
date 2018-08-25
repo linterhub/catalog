@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "csslint",
+    "description": "CSSLint",
+    "url": "http://csslint.net/",
+    "languages": [
+        "CSS",
+        "OOCSS",
+        "Less"
+    ],
+    "configs": [
+        ".csslintrc"
+    ],
+    "license": "MIT"
+}

@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "eslint",
+    "description": "An AST-based pattern checker for JavaScript.",
+    "url": "https://eslint.org",
+    "languages": [
+        "JavaScript",
+        "JSX"
+    ],
+    "configs": [
+        ".eslintrc",
+        ".eslintrc.json",
+        ".eslintrc.yaml",
+        ".eslintrc.yml",
+        ".eslintrc.js"
+    ],
+    "license": "MIT"
+}

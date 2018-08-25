@@ -1,0 +1,22 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "lizard",
+    "description": "A code analyzer without caring the C/C++ header files. It works with Java, C/C++, JavaScript, Python, Ruby, Swift, Objective C. Metrics includes cyclomatic complexity number etc.",
+    "url": "http://www.lizard.ws",
+    "languages": [
+        "Objective-C",
+        "C",
+        "C++",
+        "Java",
+        "C#",
+        "JavaScript",
+        "Swift",
+        "Python",
+        "Ruby",
+        "PHP",
+        "Scala",
+        "GDScript",
+        "TTCN-3"
+    ],
+    "license": "MIT"
+}

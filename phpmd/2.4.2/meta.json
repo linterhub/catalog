@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "phpmd",
+    "description": "PHPMD is a spin-off project of PHP Depend and aims to be a PHP equivalent of the well known Java tool PMD.",
+    "url": "http://phpmd.org/",
+    "languages": [
+        "PHP"
+    ],
+    "license": "BSD-3-Clause"
+}

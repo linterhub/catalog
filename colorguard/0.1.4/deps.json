@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "colorguard",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "npm"
+            },
+            {
+                "manager": "npm",
+                "package": "colorguard",
+                "target": true
+            }
+        ]
+    ]
+}

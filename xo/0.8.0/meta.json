@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "xo",
+    "description": "JavaScript happiness style linter ❤️",
+    "url": "https://github.com/xojs/xo#readme",
+    "languages": [
+        "JavaScript"
+    ],
+    "license": "MIT"
+}

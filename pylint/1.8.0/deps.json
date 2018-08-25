@@ -1,0 +1,50 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "pylint",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "pip"
+            },
+            {
+                "manager": "pip",
+                "package": "astroid",
+                "version": "<2.0"
+            },
+            {
+                "manager": "pip",
+                "package": "six"
+            },
+            {
+                "manager": "pip",
+                "package": "isort",
+                "version": ">=4.2.5"
+            },
+            {
+                "manager": "pip",
+                "package": "mccabe"
+            },
+            {
+                "manager": "pip",
+                "package": "singledispatch"
+            },
+            {
+                "manager": "pip",
+                "package": "configparser"
+            },
+            {
+                "manager": "pip",
+                "package": "backports"
+            },
+            {
+                "manager": "pip",
+                "package": "colorama"
+            },
+            {
+                "manager": "pip",
+                "target": true
+            }
+        ]
+    ]
+}

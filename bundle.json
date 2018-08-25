@@ -1,0 +1,2212 @@
+{
+    "$schema": "https://schema.linterhub.com/bundle.json",
+    "alex": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "alex",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "alex",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "alex",
+            "description": "Catch insensitive, inconsiderate writing",
+            "url": "http://alexjs.com",
+            "languages": [
+                "Text"
+            ],
+            "license": "MIT"
+        }
+    },
+    "bandit": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "bandit",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "bandit",
+            "description": "Security oriented static analyser for python code.",
+            "url": "https://bandit.readthedocs.io/en/latest/",
+            "languages": [
+                "Python"
+            ],
+            "license": ""
+        }
+    },
+    "bootlint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "bootlint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "bootlint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "bootlint",
+            "description": "HTML linter for Bootstrap projects",
+            "url": "https://github.com/twbs/bootlint",
+            "languages": [
+                "HTML"
+            ],
+            "license": "MIT"
+        }
+    },
+    "brakeman": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "brakeman",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "gem"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "brakeman",
+                        "version": "4.3.1",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "brakeman",
+            "description": "Brakeman detects security vulnerabilities in Ruby on Rails applications via static analysis.",
+            "url": "http://brakemanscanner.org",
+            "languages": [
+                "Ruby"
+            ],
+            "license": "MIT"
+        }
+    },
+    "ccm": {
+        "deps": {
+            "$schema": "https://repometric.github.io/linterhub/schema/deps.json",
+            "name": "ccm",
+            "dependencies": [
+                [
+                    {
+                        "manager": "os",
+                        "package": "win"
+                    },
+                    {
+                        "manager": "platform",
+                        "package": ".net",
+                        "version": "3.5"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "https://github.com/jonasblunck/ccm/releases/download/v1.1.11/ccm.1.1.11.zip",
+                        "version": "1.1.11",
+                        "engine": true
+                    }
+                ],
+                [
+                    {
+                        "manager": "platform",
+                        "package": "mono",
+                        "version": "2.8"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "https://github.com/jonasblunck/ccm/releases/download/v1.1.11/ccm.1.1.11.zip",
+                        "version": "1.1.11",
+                        "engine": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://repometric.github.io/linterhub/schema/meta.json",
+            "name": "ccm",
+            "description": "CCM is a tool that analyzes c, c++, c#, javascript and TypeScript code and reports back with cyclomatic complexity metric.",
+            "url": "https://github.com/jonasblunck/ccm",
+            "languages": [
+                "C#",
+                "C++",
+                "C",
+                "JavaScript",
+                "TypeScript"
+            ],
+            "license": "MIT"
+        }
+    },
+    "checkstyle": {
+        "deps": {
+            "$schema": "https://repometric.github.io/linterhub/schema/deps.json",
+            "name": "checkstyle",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "java"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "http://repo1.maven.org/maven2/com/puppycrawl/tools/checkstyle/8.9/checkstyle-8.9.jar",
+                        "version": "8.9",
+                        "engine": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://repometric.github.io/linterhub/schema/meta.json",
+            "name": "checkstyle",
+            "description": "Checkstyle is a tool for checking Java source code for adherence to a Code Standard or set of validation rules (best practices).",
+            "url": "https://github.com/checkstyle/checkstyle",
+            "languages": [
+                "Java",
+                "JavaScript",
+                "CSS"
+            ],
+            "license": "LGPL-2.1"
+        }
+    },
+    "classycle": {
+        "deps": {
+            "$schema": "https://repometric.github.io/linterhub/schema/deps.json",
+            "name": "classycle",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "java"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "https://sourceforge.net/projects/classycle/files/latest/download?source=files",
+                        "version": "1.4.2",
+                        "engine": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://repometric.github.io/linterhub/schema/meta.json",
+            "name": "classycle",
+            "description": "Classycle's Analyser analyses the static class and package dependencies in Java applications or libraries. It is especially helpful for finding cyclic dependencies between classes or packages.",
+            "url": "http://classycle.sourceforge.net/index.html",
+            "languages": [
+                "Java"
+            ],
+            "license": "BSD-1-Clause"
+        }
+    },
+    "clinton": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "clinton",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "clinton",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "clinton",
+            "description": "JavaScript project style linter",
+            "url": "https://github.com/SamVerschueren/clinton#readme",
+            "languages": [
+                "JavaScript"
+            ],
+            "license": "MIT"
+        }
+    },
+    "codesniffer": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "codesniffer",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "composer"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "ext-simplexml",
+                        "version": "*"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "ext-tokenizer",
+                        "version": "*"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "ext-xmlwriter",
+                        "version": "*"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "php",
+                        "version": ">=5.4.0"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "squizlabs/php_codesniffer",
+                        "version": "3.3.1",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "codesniffer",
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "url": "http://www.squizlabs.com/php-codesniffer",
+            "languages": [
+                "PHP",
+                "JavaScript",
+                "CSS"
+            ],
+            "license": "BSD-3-Clause"
+        }
+    },
+    "coffeelint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "coffeelint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "coffeelint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "coffeelint",
+            "description": "Lint your CoffeeScript",
+            "url": "http://www.coffeelint.org",
+            "languages": [
+                "CoffeeScript"
+            ],
+            "license": "MIT"
+        }
+    },
+    "colorguard": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "colorguard",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "colorguard",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "colorguard",
+            "description": "Keep a watchful eye on your css colors",
+            "url": "https://github.com/SlexAxton/css-colorguard",
+            "languages": [
+                "CSS"
+            ],
+            "license": "MIT"
+        }
+    },
+    "csscomb": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "csscomb",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "csscomb",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "csscomb",
+            "description": "CSS coding style formatter",
+            "url": "http://csscomb.com/",
+            "languages": [
+                "CSS"
+            ],
+            "configs": [
+                ".csscomb.json"
+            ],
+            "license": "MIT"
+        }
+    },
+    "csslint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "csslint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "csslint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "csslint",
+            "description": "CSSLint",
+            "url": "http://csslint.net/",
+            "languages": [
+                "CSS",
+                "OOCSS",
+                "Less"
+            ],
+            "configs": [
+                ".csslintrc"
+            ],
+            "license": "MIT"
+        }
+    },
+    "eslint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "eslint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "eslint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "eslint",
+            "description": "An AST-based pattern checker for JavaScript.",
+            "url": "https://eslint.org",
+            "languages": [
+                "JavaScript",
+                "JSX"
+            ],
+            "configs": [
+                ".eslintrc",
+                ".eslintrc.json",
+                ".eslintrc.yaml",
+                ".eslintrc.yml",
+                ".eslintrc.js"
+            ],
+            "license": "MIT"
+        }
+    },
+    "findbugs": {
+        "deps": {
+            "$schema": "https://repometric.github.io/linterhub/schema/deps.json",
+            "name": "findbugs",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "java"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "http://repo.maven.apache.org/maven2/com/github/spotbugs/spotbugs/3.1.3/spotbugs-3.1.3.zip",
+                        "version": "3.1.3",
+                        "engine": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://repometric.github.io/linterhub/schema/meta.json",
+            "name": "findbugs",
+            "alias": [
+                "spotbugs"
+            ],
+            "description": "FindBugs is a program which uses static analysis to look for bugs in Java code.  ",
+            "url": "https://github.com/findbugsproject/findbugs",
+            "languages": [
+                "Java"
+            ],
+            "license": "LGPL-2.1"
+        }
+    },
+    "flake8": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "flake8",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "enum34"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "configparser"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "pyflakes"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "pycodestyle"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "mccabe"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "flake8",
+            "description": "the modular source code checker: pep8, pyflakes and co",
+            "url": "https://gitlab.com/pycqa/flake8",
+            "languages": [
+                "Python"
+            ],
+            "license": "MIT"
+        }
+    },
+    "flay": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "flay",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "gem"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "erubis",
+                        "version": "~> 2.7.0"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "path_expander",
+                        "version": "~> 1.0"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "ruby_parser",
+                        "version": "~> 3.0"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "sexp_processor",
+                        "version": "~> 4.0"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "flay",
+                        "version": "2.12.0",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "flay",
+            "description": "Flay analyzes code for structural similarities. Differences in literal\nvalues, variable, class, method names, whitespace, programming style,\nbraces vs do/end, etc are all ignored. Making this totally rad.",
+            "url": "http://ruby.sadi.st/",
+            "languages": [
+                "Ruby"
+            ],
+            "license": "MIT"
+        }
+    },
+    "flog": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "flog",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "gem"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "path_expander",
+                        "version": "~> 1.0"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "ruby_parser",
+                        "version": "> 3.1.0, ~> 3.1"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "sexp_processor",
+                        "version": "~> 4.8"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "flog",
+                        "version": "4.6.2",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "flog",
+            "description": "Flog reports the most tortured code in an easy to read pain\nreport. The higher the score, the more pain the code is in.",
+            "url": "http://ruby.sadi.st/",
+            "languages": [
+                "Ruby"
+            ],
+            "license": "MIT"
+        }
+    },
+    "gendarme": {
+        "deps": {
+            "$schema": "https://repometric.github.io/linterhub/schema/deps.json",
+            "name": "gendarme",
+            "dependencies": [
+                [
+                    {
+                        "manager": "os",
+                        "package": "win"
+                    },
+                    {
+                        "manager": "platform",
+                        "package": ".net",
+                        "version": "4.0"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "https://github.com/downloads/spouliot/gendarme/gendarme-2.11-snapshot-20110305-win32-setup.zip",
+                        "version": "2.11.0.0",
+                        "engine": true
+                    }
+                ],
+                [
+                    {
+                        "manager": "platform",
+                        "package": "mono",
+                        "version": "2.8"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "https://github.com/downloads/spouliot/gendarme/gendarme-2.11-snapshot-20110305-win32-setup.zip",
+                        "version": "2.11.0.0",
+                        "engine": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://repometric.github.io/linterhub/schema/meta.json",
+            "name": "gendarme",
+            "description": "Gendarme is a extensible rule-based tool to find problems in .NET applications and libraries.",
+            "url": "https://github.com/mono/website/blob/gh-pages/docs/tools+libraries/tools/gendarme/index.md",
+            "languages": [
+                "C#"
+            ],
+            "license": "MIT"
+        }
+    },
+    "html-inspector": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "html-inspector",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "html-inspector",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "html-inspector",
+            "description": "HTML Inspector is a code quality tool to help you and your team write better markup. It's written in JavaScript and runs in the browser, so testing your HTML has never been easier.",
+            "url": "https://github.com/philipwalton/html-inspector",
+            "languages": [
+                "HTML"
+            ],
+            "license": "MIT"
+        }
+    },
+    "htmlhint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "htmlhint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "htmlhint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "htmlhint",
+            "description": "A Static Code Analysis Tool for HTML",
+            "url": "https://github.com/yaniswang/HTMLHint#readme",
+            "languages": [
+                "HTML"
+            ],
+            "license": "MIT"
+        }
+    },
+    "javascriptlint": {
+        "deps": {
+            "$schema": "https://repometric.github.io/linterhub/schema/deps.json",
+            "name": "javascriptlint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "os",
+                        "package": "win"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "http://www.javascriptlint.com/download/jsl-0.3.0-win32.zip",
+                        "version": "0.3.0",
+                        "engine": true
+                    }
+                ],
+                [
+                    {
+                        "manager": "os",
+                        "package": "macOs"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "http://www.javascriptlint.com/download/jsl-0.3.0-mac.tar.gz",
+                        "version": "0.3.0",
+                        "engine": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://repometric.github.io/linterhub/schema/meta.json",
+            "name": "javascriptlint",
+            "description": "With JavaScript Lint, you can check all your JavaScript source code for common mistakes without actually running the script or opening the web page.",
+            "url": "http://www.javascriptlint.com",
+            "languages": [
+                "JavaScript"
+            ],
+            "license": "GPL-2.0"
+        }
+    },
+    "jedi": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "jedi",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "jedi",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "jedi",
+            "description": "jedi — a language for Web development",
+            "url": "http://github.com/baixing/jedi",
+            "languages": [
+                "Pug",
+                "JEDI",
+                "CoffeeCup"
+            ],
+            "license": "Apache-2.0"
+        }
+    },
+    "jscpd": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "jscpd",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "jscpd",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "jscpd",
+            "description": "Copy/paste detector for programming code, support JavaScript, CoffeeScript, PHP, Ruby, Python, Less, Go, Java, Yaml, C#, C++, C, Puppet, Twig languages",
+            "url": "https://github.com/kucherenko/jscpd#readme",
+            "languages": [
+                "JavaScript",
+                "Java",
+                "YAML",
+                "CoffeeScript",
+                "C++",
+                "Haxe",
+                "PHP",
+                "C#",
+                "TypeScript",
+                "Go",
+                "Python",
+                "HTML",
+                "Ruby",
+                "C",
+                "SCSS",
+                "Less",
+                "CSS",
+                "Erlang",
+                "Swift",
+                "XML",
+                "Objective-C",
+                "Puppet",
+                "Twig",
+                "Vue",
+                "Scala",
+                "Lua",
+                "Perl"
+            ],
+            "configs": [
+                ".cpd.yaml"
+            ],
+            "license": "MIT"
+        }
+    },
+    "jscs": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "jscs",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "jscs",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "jscs",
+            "description": "JavaScript Code Style",
+            "url": "http://jscs.info",
+            "languages": [
+                "JavaScript"
+            ],
+            "license": "MIT"
+        }
+    },
+    "jshint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "jshint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "jshint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "jshint",
+            "description": "Static analysis tool for JavaScript",
+            "url": "http://jshint.com/",
+            "languages": [
+                "JavaScript"
+            ],
+            "license": "(MIT AND JSON)"
+        }
+    },
+    "jslint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "jslint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "jslint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "jslint",
+            "description": "The JavaScript Code Quality Tool",
+            "url": "https://github.com/reid/node-jslint",
+            "languages": [
+                "JavaScript"
+            ],
+            "configs": [
+                "jslint.conf",
+                ".jslint.conf"
+            ],
+            "license": "BSD-3-Clause"
+        }
+    },
+    "jsonlint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "jsonlint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "jsonlint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "jsonlint",
+            "description": "Validate JSON",
+            "url": "http://zaach.github.com/jsonlint/",
+            "languages": [
+                "JSON"
+            ]
+        }
+    },
+    "lesslint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "lesslint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "lesslint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "lesslint",
+            "description": "lint your less code",
+            "url": "https://github.com/ecomfe/node-lesslint#readme",
+            "languages": [
+                "Less"
+            ]
+        }
+    },
+    "lizard": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "lizard",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "lizard",
+            "description": "A code analyzer without caring the C/C++ header files. It works with Java, C/C++, JavaScript, Python, Ruby, Swift, Objective C. Metrics includes cyclomatic complexity number etc.",
+            "url": "http://www.lizard.ws",
+            "languages": [
+                "Objective-C",
+                "C",
+                "C++",
+                "Java",
+                "C#",
+                "JavaScript",
+                "Swift",
+                "Python",
+                "Ruby",
+                "PHP",
+                "Scala",
+                "GDScript",
+                "TTCN-3"
+            ],
+            "license": "MIT"
+        }
+    },
+    "markdownlint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "markdownlint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "markdownlint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "markdownlint",
+            "description": "A Node.js style checker and lint tool for Markdown/CommonMark files.",
+            "url": "https://github.com/DavidAnson/markdownlint",
+            "languages": [
+                "Markdown"
+            ],
+            "license": "MIT"
+        }
+    },
+    "nsp": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "nsp",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "nsp",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "nsp",
+            "description": "The Node Security (nodesecurity.io) command line interface",
+            "url": "https://github.com/nodesecurity/nsp#readme",
+            "languages": [
+                "JavaScript"
+            ],
+            "license": "Apache-2.0"
+        }
+    },
+    "ocstyle": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "ocstyle",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "ocstyle",
+            "description": "Objective-C style checker",
+            "url": "https://www.github.com/Cue/ocstyle",
+            "languages": [
+                "Python",
+                "Objective-C"
+            ],
+            "license": "UNKNOWN"
+        }
+    },
+    "php-assumptions": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "php-assumptions",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "composer"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "nikic/php-parser",
+                        "version": "^2.0|^3.0"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "league/climate",
+                        "version": "^3.1"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "rskuipers/php-assumptions",
+                        "version": "0.7.1",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "php-assumptions",
+            "description": "Static code analysis tool to detect weak assumptions",
+            "url": "",
+            "languages": [
+                "PHP"
+            ],
+            "license": "MIT"
+        }
+    },
+    "phpmd": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "phpmd",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "composer"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "php",
+                        "version": ">=5.3.9"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "pdepend/pdepend",
+                        "version": "^2.5"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "ext-xml",
+                        "version": "*"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "phpmd/phpmd",
+                        "version": "2.6.0",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "phpmd",
+            "description": "PHPMD is a spin-off project of PHP Depend and aims to be a PHP equivalent of the well known Java tool PMD.",
+            "url": "http://phpmd.org/",
+            "languages": [
+                "PHP"
+            ],
+            "license": "BSD-3-Clause"
+        }
+    },
+    "phpmetrics": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "phpmetrics",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "composer"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "ext-dom",
+                        "version": "*"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "ext-tokenizer",
+                        "version": "*"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "nikic/php-parser",
+                        "version": "^3|^4"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "php",
+                        "version": ">=5.5"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "phpmetrics/phpmetrics",
+                        "version": "v2.4.1",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "phpmetrics",
+            "description": "Static analyzer tool for PHP : Coupling, Cyclomatic complexity, Maintainability Index, Halstead's metrics... and more !",
+            "url": "http://www.phpmetrics.org",
+            "languages": [
+                "PHP"
+            ],
+            "license": "MIT"
+        }
+    },
+    "phpsa": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "phpsa",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "composer"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "nikic/php-parser",
+                        "version": "^2.1"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "ovr/phpreflection",
+                        "version": "^0.3.1"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "php",
+                        "version": ">=5.5"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "phpdocumentor/reflection-docblock",
+                        "version": "^3.0"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "phpdocumentor/type-resolver",
+                        "version": "^0.2"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "regex-guard/regex-guard",
+                        "version": "^1.1"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "symfony/config",
+                        "version": "^3.0.5"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "symfony/console",
+                        "version": "^3.0.5"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "symfony/event-dispatcher",
+                        "version": "^3.0.5"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "symfony/yaml",
+                        "version": "^3.0.5"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "webiny/event-manager",
+                        "version": "^1.4.1"
+                    },
+                    {
+                        "manager": "composer",
+                        "package": "ovr/phpsa",
+                        "version": "0.6.2",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "phpsa",
+            "description": "Static Analysis for PHP",
+            "url": "",
+            "languages": [
+                "PHP"
+            ],
+            "license": "MIT"
+        }
+    },
+    "plato": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "plato",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "plato",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "plato",
+            "description": "JavaScript source analysis and visualizer",
+            "url": "https://github.com/es-analysis/plato",
+            "languages": [
+                "JavaScript"
+            ],
+            "license": "MIT"
+        }
+    },
+    "pmd": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "pmd",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "chocolatey"
+                    },
+                    {
+                        "manager": "chocolatey",
+                        "package": "javaruntime",
+                        "version": "7.0"
+                    },
+                    {
+                        "manager": "chocolatey",
+                        "package": "pmd",
+                        "version": "6.3.0",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "pmd",
+            "description": "PMD is a source code analyzer.",
+            "url": "http://pmd.sourceforge.net/",
+            "languages": [
+                "Apex",
+                "JavaScript",
+                "Java",
+                "JSP",
+                "PLSQL",
+                "Maven POM",
+                "Apache Velocity",
+                "XML",
+                "XSLT"
+            ],
+            "license": "-"
+        }
+    },
+    "polylint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "polylint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "polylint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "polylint",
+            "description": "Keeps your Polymer Elements clean and functional!",
+            "url": "https://github.com/PolymerLabs/polylint",
+            "languages": [
+                "HTML",
+                "JavaScript"
+            ],
+            "license": "BSD-3-Clause"
+        }
+    },
+    "prettier": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "prettier",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "prettier",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "prettier",
+            "description": "Prettier is an opinionated code formatter",
+            "url": "https://prettier.io",
+            "languages": [
+                "JavaScript",
+                "TypeScript",
+                "CSS",
+                "SCSS",
+                "Less",
+                "JSX",
+                "Vue",
+                "GraphQL",
+                "JSON",
+                "Markdown"
+            ],
+            "configs": [
+                ".prettierrc",
+                "prettier.config.js"
+            ],
+            "license": "MIT"
+        }
+    },
+    "proselint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "proselint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "six"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "future"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "click"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "proselint",
+            "description": "A linter for prose.",
+            "url": "http://github.com/amperser/proselint",
+            "languages": [
+                "Markdown"
+            ],
+            "license": "BSD"
+        }
+    },
+    "prospector": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "prospector",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "prospector",
+            "description": "Prospector: python static analysis tool",
+            "url": "http://prospector.readthedocs.io",
+            "languages": [
+                "Python"
+            ],
+            "configs": [
+                ".prospector"
+            ],
+            "license": "GPLv2"
+        }
+    },
+    "pug-lint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "pug-lint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "pug-lint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "pug-lint",
+            "description": "An unopinionated and configurable linter and style checker for Pug (formerly Jade)",
+            "url": "https://github.com/pugjs/pug-lint",
+            "languages": [
+                "Jade"
+            ],
+            "license": "ISC"
+        }
+    },
+    "puppet-lint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "puppet-lint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "gem"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "facter",
+                        "version": "< 4, > 2.0.1"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "fast_gettext",
+                        "version": "~> 1.1.2"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "hiera",
+                        "version": "< 4, >= 3.2.1"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "locale",
+                        "version": "~> 2.1"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "multi_json",
+                        "version": "~> 1.10"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "puppet",
+                        "version": "5.5.6",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "puppet-lint",
+            "description": "Puppet, an automated configuration management tool",
+            "url": "https://github.com/puppetlabs/puppet",
+            "languages": [
+                "Ruby"
+            ]
+        }
+    },
+    "pycodestyle": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "pycodestyle",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "pycodestyle",
+            "description": "Python style guide checker",
+            "url": "https://pycodestyle.readthedocs.io/",
+            "languages": [
+                "Python"
+            ],
+            "license": "Expat license"
+        }
+    },
+    "pyflakes": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "pyflakes",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "pyflakes",
+            "description": "passive checker of Python programs",
+            "url": "https://github.com/PyCQA/pyflakes",
+            "languages": [
+                "Python"
+            ],
+            "license": "MIT"
+        }
+    },
+    "pylint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "pylint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "colorama"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "mccabe"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "isort",
+                        "version": ">=4.2.5"
+                    },
+                    {
+                        "manager": "pip",
+                        "package": "astroid",
+                        "version": ">=2.0.0"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "pylint",
+            "description": "python code static checker",
+            "url": "https://github.com/PyCQA/pylint",
+            "languages": [
+                "Python"
+            ],
+            "license": "GPL"
+        }
+    },
+    "radon": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "radon",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "pip"
+                    },
+                    {
+                        "manager": "pip",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "radon",
+            "description": "Code Metrics in Python",
+            "url": "https://radon.readthedocs.org/",
+            "languages": [
+                "Python"
+            ],
+            "license": "MIT"
+        }
+    },
+    "remark-lint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "remark-lint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "remark-lint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "remark-lint",
+            "description": "Lint markdown with remark",
+            "languages": [
+                "Markdown"
+            ],
+            "license": "MIT"
+        }
+    },
+    "rubocop": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "rubocop",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "gem"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "jaro_winkler",
+                        "version": "~> 1.5.1"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "parallel",
+                        "version": "~> 1.10"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "parser",
+                        "version": "!= 2.5.1.1, >= 2.5"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "powerpack",
+                        "version": "~> 0.1"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "rainbow",
+                        "version": "< 4.0, >= 2.2.2"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "ruby-progressbar",
+                        "version": "~> 1.7"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "unicode-display_width",
+                        "version": ">= 1.0.1, ~> 1.0"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "rubocop",
+                        "version": "0.58.2",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "rubocop",
+            "description": "    Automatic Ruby code style checking tool.\n    Aims to enforce the community-driven Ruby Style Guide.\n",
+            "url": "http://www.rubocop.org/",
+            "languages": [
+                "Ruby"
+            ],
+            "license": "MIT"
+        }
+    },
+    "ruby-lint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "ruby-lint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "gem"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "ruby",
+                        "version": "0.1.0",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "ruby-lint",
+            "description": "FIX ME",
+            "url": "http://banisterfiend.wordpress.com",
+            "languages": [
+                "Ruby"
+            ],
+            "license": "UNKNOWN"
+        }
+    },
+    "sass-lint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "sass-lint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "sass-lint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "sass-lint",
+            "description": "All Node Sass linter!",
+            "url": "https://github.com/sasstools/sass-lint",
+            "languages": [
+                "Sass",
+                "SCSS"
+            ],
+            "license": "MIT"
+        }
+    },
+    "scss-lint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "scss-lint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "gem"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "scss",
+                        "version": "1.0.2",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "scss-lint",
+            "description": "",
+            "url": "",
+            "languages": [
+                "SCSS"
+            ],
+            "license": "MIT"
+        }
+    },
+    "sitevalidator": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "sitevalidator",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "gem"
+                    },
+                    {
+                        "manager": "gem",
+                        "package": "site",
+                        "version": "0.0.1.2",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "sitevalidator",
+            "description": "Site is a CMS created by Mix Internet based on Ruby on Rails!",
+            "url": "https://github.com/mixinternet/site",
+            "languages": [
+                "Ruby"
+            ]
+        }
+    },
+    "standard": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "standard",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "standard",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "standard",
+            "description": "JavaScript Standard Style",
+            "url": "https://standardjs.com",
+            "languages": [
+                "JavaScript"
+            ],
+            "license": "MIT"
+        }
+    },
+    "stylelint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "stylelint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "stylelint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "stylelint",
+            "description": "A mighty, modern CSS linter.",
+            "url": "https://stylelint.io",
+            "languages": [
+                "CSS",
+                "Less",
+                "SCSS"
+            ],
+            "configs": [
+                ".stylelintrc",
+                "stylelint.config.js"
+            ],
+            "license": "MIT"
+        }
+    },
+    "tslint": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "tslint",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "tslint",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "tslint",
+            "description": "An extensible static analysis linter for the TypeScript language",
+            "languages": [
+                "TypeScript"
+            ],
+            "license": "Apache-2.0"
+        }
+    },
+    "uncrustify": {
+        "deps": {
+            "$schema": "https://repometric.github.io/linterhub/schema/deps.json",
+            "name": "uncrustify",
+            "dependencies": [
+                [
+                    {
+                        "manager": "os",
+                        "package": "win"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "https://sourceforge.net/projects/uncrustify/files/uncrustify/",
+                        "version": "0.66.1",
+                        "engine": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://repometric.github.io/linterhub/schema/meta.json",
+            "name": "uncrustify",
+            "description": "Source code beautifier for C, C++, C#, ObjectiveC, D, Java, Pawn and VALA.",
+            "url": "https://github.com/uncrustify/uncrustify",
+            "languages": [
+                "C",
+                "C++",
+                "C#",
+                "Objective-C",
+                "D",
+                "Java",
+                "PAWN",
+                "Vala"
+            ],
+            "license": "MIT"
+        }
+    },
+    "vnu": {
+        "deps": {
+            "$schema": "https://repometric.github.io/linterhub/schema/deps.json",
+            "name": "vnu",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "java"
+                    },
+                    {
+                        "manager": "url",
+                        "package": "https://github.com/validator/validator/releases/download/18.3.0/vnu.jar_18.3.0.zip",
+                        "version": "18.3.0",
+                        "engine": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://repometric.github.io/linterhub/schema/meta.json",
+            "name": "vnu",
+            "description": "The Nu Html Checker (v.Nu) is the backend of checker.html5.org, html5.validator.nu, and validator.w3.org/nu",
+            "url": "https://github.com/validator/validator",
+            "languages": [
+                "SVG",
+                "HTML",
+                "CSS"
+            ],
+            "license": "MIT"
+        }
+    },
+    "xo": {
+        "deps": {
+            "$schema": "https://schema.linterhub.com/deps.json",
+            "name": "xo",
+            "dependencies": [
+                [
+                    {
+                        "manager": "platform",
+                        "package": "npm"
+                    },
+                    {
+                        "manager": "npm",
+                        "package": "xo",
+                        "target": true
+                    }
+                ]
+            ]
+        },
+        "meta": {
+            "$schema": "https://schema.linterhub.com/meta.json",
+            "name": "xo",
+            "description": "JavaScript happiness style linter ❤️",
+            "url": "https://github.com/xojs/xo#readme",
+            "languages": [
+                "JavaScript"
+            ],
+            "license": "MIT"
+        }
+    }
+}

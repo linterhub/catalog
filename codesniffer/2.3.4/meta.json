@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "codesniffer",
+    "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+    "url": "http://www.squizlabs.com/php-codesniffer",
+    "languages": [
+        "PHP",
+        "JavaScript",
+        "CSS"
+    ],
+    "license": "BSD-3-Clause"
+}

@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "jscpd",
+    "description": "Copy/paste detector for programming code, support JavaScript, CoffeeScript, PHP, Ruby, Python, Less, Go, Java, Yaml, C#, C++, C, Puppet, Twig languages",
+    "url": "https://github.com/kucherenko/jscpd#readme",
+    "languages": [
+        "JavaScript",
+        "Java",
+        "YAML",
+        "CoffeeScript",
+        "C++",
+        "Haxe",
+        "PHP",
+        "C#",
+        "TypeScript",
+        "Go",
+        "Python",
+        "HTML",
+        "Ruby",
+        "C",
+        "SCSS",
+        "Less",
+        "CSS",
+        "Erlang",
+        "Swift",
+        "XML",
+        "Objective-C",
+        "Puppet",
+        "Twig",
+        "Vue",
+        "Scala",
+        "Lua",
+        "Perl"
+    ],
+    "configs": [
+        ".cpd.yaml"
+    ],
+    "license": "MIT"
+}

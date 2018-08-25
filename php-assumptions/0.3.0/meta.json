@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "php-assumptions",
+    "description": "Static code analysis tool to detect weak assumptions",
+    "url": "",
+    "languages": [
+        "PHP"
+    ],
+    "license": "MIT"
+}

@@ -1,0 +1,73 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "phpsa",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "nikic/php-parser",
+                "version": "^2.1"
+            },
+            {
+                "manager": "composer",
+                "package": "ovr/phpreflection",
+                "version": "^0.3.1"
+            },
+            {
+                "manager": "composer",
+                "package": "php",
+                "version": ">=5.5"
+            },
+            {
+                "manager": "composer",
+                "package": "phpdocumentor/reflection-docblock",
+                "version": "^3.0"
+            },
+            {
+                "manager": "composer",
+                "package": "phpdocumentor/type-resolver",
+                "version": "^0.2"
+            },
+            {
+                "manager": "composer",
+                "package": "regex-guard/regex-guard",
+                "version": "^1.1"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/config",
+                "version": "^3.0.5"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/console",
+                "version": "^3.0.5"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/event-dispatcher",
+                "version": "^3.0.5"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/yaml",
+                "version": "^3.0.5"
+            },
+            {
+                "manager": "composer",
+                "package": "webiny/event-manager",
+                "version": "^1.4.1"
+            },
+            {
+                "manager": "composer",
+                "package": "ovr/phpsa",
+                "version": "0.6.2",
+                "target": true
+            }
+        ]
+    ]
+}

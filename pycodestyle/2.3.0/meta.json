@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "pycodestyle",
+    "description": "Python style guide checker",
+    "url": "https://pycodestyle.readthedocs.io/",
+    "languages": [
+        "Python"
+    ],
+    "license": "Expat license"
+}

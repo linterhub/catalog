@@ -1,0 +1,13 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "prospector",
+    "description": "Prospector: python static analysis tool",
+    "url": "http://prospector.readthedocs.io",
+    "languages": [
+        "Python"
+    ],
+    "configs": [
+        ".prospector"
+    ],
+    "license": "GPLv2"
+}

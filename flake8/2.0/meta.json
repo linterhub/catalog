@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "flake8",
+    "description": "the modular source code checker: pep8, pyflakes and co",
+    "url": "http://bitbucket.org/tarek/flake8",
+    "languages": [
+        "Python"
+    ],
+    "license": "MIT"
+}

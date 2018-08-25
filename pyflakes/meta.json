@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "pyflakes",
+    "description": "passive checker of Python programs",
+    "url": "https://github.com/PyCQA/pyflakes",
+    "languages": [
+        "Python"
+    ],
+    "license": "MIT"
+}

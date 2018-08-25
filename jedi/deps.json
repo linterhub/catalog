@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "jedi",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "npm"
+            },
+            {
+                "manager": "npm",
+                "package": "jedi",
+                "target": true
+            }
+        ]
+    ]
+}

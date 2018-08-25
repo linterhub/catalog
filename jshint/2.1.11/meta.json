@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "jshint",
+    "description": "Static analysis tool for JavaScript",
+    "url": "http://jshint.com/",
+    "languages": [
+        "JavaScript"
+    ],
+    "license": "(MIT AND JSON)"
+}

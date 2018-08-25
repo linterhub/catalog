@@ -1,0 +1,105 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "prospector",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "pip"
+            },
+            {
+                "manager": "pip",
+                "package": "vulture",
+                "version": ">=0.6"
+            },
+            {
+                "manager": "pip",
+                "package": "pyroma",
+                "version": ">=2.3"
+            },
+            {
+                "manager": "pip",
+                "package": "frosted",
+                "version": ">=1.4.1"
+            },
+            {
+                "manager": "pip",
+                "package": "vulture",
+                "version": ">=0.6"
+            },
+            {
+                "manager": "pip",
+                "package": "pyroma",
+                "version": ">=2.3"
+            },
+            {
+                "manager": "pip",
+                "package": "frosted",
+                "version": ">=1.4.1"
+            },
+            {
+                "manager": "pip",
+                "package": "pydocstyle",
+                "version": ">=2.0.0"
+            },
+            {
+                "manager": "pip",
+                "package": "pep8-naming",
+                "version": ">=0.3.3"
+            },
+            {
+                "manager": "pip",
+                "package": "pycodestyle",
+                "version": "<2.4.0,>=2.0.0"
+            },
+            {
+                "manager": "pip",
+                "package": "pyflakes",
+                "version": "<2.0.0,>=0.8.1"
+            },
+            {
+                "manager": "pip",
+                "package": "mccabe",
+                "version": ">=0.5.0"
+            },
+            {
+                "manager": "pip",
+                "package": "pyyaml"
+            },
+            {
+                "manager": "pip",
+                "package": "dodgy",
+                "version": ">=0.1.9"
+            },
+            {
+                "manager": "pip",
+                "package": "setoptconf",
+                "version": ">=0.2.0"
+            },
+            {
+                "manager": "pip",
+                "package": "requirements-detector",
+                "version": ">=0.4.1"
+            },
+            {
+                "manager": "pip",
+                "package": "pylint-common",
+                "version": ">=0.2.5"
+            },
+            {
+                "manager": "pip",
+                "package": "pylint-plugin-utils",
+                "version": ">=0.2.6"
+            },
+            {
+                "manager": "pip",
+                "package": "pylint",
+                "version": "<2.0.0,>=1.5.6"
+            },
+            {
+                "manager": "pip",
+                "target": true
+            }
+        ]
+    ]
+}

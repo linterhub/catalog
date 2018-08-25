@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "phpmetrics",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "phploc/phploc",
+                "version": "~2.0"
+            },
+            {
+                "manager": "composer",
+                "package": "phpmetrics/phpmetrics",
+                "version": "0.0.1",
+                "target": true
+            }
+        ]
+    ]
+}

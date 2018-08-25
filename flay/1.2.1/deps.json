@@ -1,0 +1,38 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "flay",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "gem"
+            },
+            {
+                "manager": "gem",
+                "package": "erubis",
+                "version": "~> 2.7.0"
+            },
+            {
+                "manager": "gem",
+                "package": "path_expander",
+                "version": "~> 1.0"
+            },
+            {
+                "manager": "gem",
+                "package": "ruby_parser",
+                "version": "~> 3.0"
+            },
+            {
+                "manager": "gem",
+                "package": "sexp_processor",
+                "version": "~> 4.0"
+            },
+            {
+                "manager": "gem",
+                "package": "flay",
+                "version": "1.2.1",
+                "target": true
+            }
+        ]
+    ]
+}

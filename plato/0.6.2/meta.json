@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "plato",
+    "description": "JavaScript source analysis and visualizer",
+    "url": "https://github.com/es-analysis/plato",
+    "languages": [
+        "JavaScript"
+    ],
+    "license": "MIT"
+}

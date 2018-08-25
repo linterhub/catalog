@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "pmd",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "chocolatey"
+            },
+            {
+                "manager": "chocolatey",
+                "package": "javaruntime",
+                "version": "7.0"
+            },
+            {
+                "manager": "chocolatey",
+                "package": "pmd",
+                "version": "6.3.0",
+                "target": true
+            }
+        ]
+    ]
+}

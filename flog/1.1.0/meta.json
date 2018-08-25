@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "flog",
+    "description": "Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.  % ./bin/flog bin/flog Total score = 128.7  Flog#report: (21) 4: puts 2: sort_by ...",
+    "url": "http://ruby.sadi.st/",
+    "languages": [
+        "Ruby"
+    ],
+    "license": "MIT"
+}

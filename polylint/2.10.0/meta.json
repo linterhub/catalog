@@ -1,0 +1,11 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "polylint",
+    "description": "Keeps your Polymer Elements clean and functional!",
+    "url": "https://github.com/PolymerLabs/polylint",
+    "languages": [
+        "HTML",
+        "JavaScript"
+    ],
+    "license": "BSD-3-Clause"
+}

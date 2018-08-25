@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "php-assumptions",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "nikic/php-parser",
+                "version": "^1.0"
+            },
+            {
+                "manager": "composer",
+                "package": "rskuipers/php-assumptions",
+                "version": "0.1.0",
+                "target": true
+            }
+        ]
+    ]
+}

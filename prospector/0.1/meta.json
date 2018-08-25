@@ -1,0 +1,13 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "prospector",
+    "description": "prospector",
+    "url": "https://github.com/landscapeio/prospector",
+    "languages": [
+        "Python"
+    ],
+    "configs": [
+        ".prospector"
+    ],
+    "license": "GPLv2"
+}

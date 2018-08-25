@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "phpmd",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "php",
+                "version": ">=5.3.9"
+            },
+            {
+                "manager": "composer",
+                "package": "pdepend/pdepend",
+                "version": "^2.5"
+            },
+            {
+                "manager": "composer",
+                "package": "ext-xml",
+                "version": "*"
+            },
+            {
+                "manager": "composer",
+                "package": "phpmd/phpmd",
+                "version": "2.6.0",
+                "target": true
+            }
+        ]
+    ]
+}

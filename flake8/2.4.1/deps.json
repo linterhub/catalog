@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "flake8",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "pip"
+            },
+            {
+                "manager": "pip",
+                "package": "pyflakes",
+                "version": ">=0.8.1,<0.9"
+            },
+            {
+                "manager": "pip",
+                "package": "pep8",
+                "version": ">=1.5.7,!=1.6.0,!=1.6.1,!=1.6.2"
+            },
+            {
+                "manager": "pip",
+                "package": "mccabe",
+                "version": ">=0.2.1,<0.4"
+            },
+            {
+                "manager": "pip",
+                "target": true
+            }
+        ]
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "flake8",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "pip"
+            },
+            {
+                "manager": "pip",
+                "package": "enum34"
+            },
+            {
+                "manager": "pip",
+                "package": "configparser"
+            },
+            {
+                "manager": "pip",
+                "package": "pyflakes"
+            },
+            {
+                "manager": "pip",
+                "package": "pycodestyle"
+            },
+            {
+                "manager": "pip",
+                "package": "mccabe"
+            },
+            {
+                "manager": "pip",
+                "target": true
+            }
+        ]
+    ]
+}

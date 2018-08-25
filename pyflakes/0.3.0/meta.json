@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "pyflakes",
+    "description": "passive checker of Python programs",
+    "url": "http://www.divmod.org/trac/wiki/DivmodPyflakes",
+    "languages": [
+        "Python"
+    ],
+    "license": "MIT"
+}

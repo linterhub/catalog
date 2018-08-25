@@ -1,0 +1,14 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "jslint",
+    "description": "The JavaScript Code Quality Tool",
+    "url": "https://github.com/reid/node-jslint",
+    "languages": [
+        "JavaScript"
+    ],
+    "configs": [
+        "jslint.conf",
+        ".jslint.conf"
+    ],
+    "license": "BSD-3-Clause"
+}

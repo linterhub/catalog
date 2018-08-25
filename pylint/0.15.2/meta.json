@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "pylint",
+    "description": "python code static checker",
+    "url": "http://www.logilab.org/project/name/pylint",
+    "languages": [
+        "Python"
+    ],
+    "license": "GPL"
+}

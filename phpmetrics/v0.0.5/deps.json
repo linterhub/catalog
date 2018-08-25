@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "phpmetrics",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/console",
+                "version": "2.4.*"
+            },
+            {
+                "manager": "composer",
+                "package": "twig/twig",
+                "version": "1.15.*"
+            },
+            {
+                "manager": "composer",
+                "package": "phpmetrics/phpmetrics",
+                "version": "v0.0.5",
+                "target": true
+            }
+        ]
+    ]
+}

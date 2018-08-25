@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "jedi",
+    "description": "jedi — a language for Web development",
+    "url": "http://github.com/baixing/jedi",
+    "languages": [
+        "Pug",
+        "JEDI",
+        "CoffeeCup"
+    ],
+    "license": "Apache-2.0"
+}

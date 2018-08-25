@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "phpmetrics",
+    "description": "Static analyzis tool for PHP : Coupling, Cyclomatic complexity, Maintainability Index, Halstead's metrics... and more !",
+    "url": "http://www.phpmetrics.org",
+    "languages": [
+        "PHP"
+    ],
+    "license": "MIT"
+}

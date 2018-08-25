@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "prettier",
+    "description": "Prettier is an opinionated code formatter",
+    "url": "https://prettier.io",
+    "languages": [
+        "JavaScript",
+        "TypeScript",
+        "CSS",
+        "SCSS",
+        "Less",
+        "JSX",
+        "Vue",
+        "GraphQL",
+        "JSON",
+        "Markdown"
+    ],
+    "configs": [
+        ".prettierrc",
+        "prettier.config.js"
+    ],
+    "license": "MIT"
+}

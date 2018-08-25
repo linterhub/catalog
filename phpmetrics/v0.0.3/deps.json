@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "phpmetrics",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "phploc/phploc",
+                "version": "~2.0"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/console",
+                "version": "2.4.*@dev"
+            },
+            {
+                "manager": "composer",
+                "package": "twig/twig",
+                "version": "v1.15.0"
+            },
+            {
+                "manager": "composer",
+                "package": "phpmetrics/phpmetrics",
+                "version": "v0.0.3",
+                "target": true
+            }
+        ]
+    ]
+}

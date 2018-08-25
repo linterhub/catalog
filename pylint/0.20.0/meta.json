@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "pylint",
+    "description": null,
+    "url": null,
+    "languages": [
+        "Python"
+    ],
+    "license": null
+}

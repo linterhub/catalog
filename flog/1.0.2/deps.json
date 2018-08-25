@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "flog",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "gem"
+            },
+            {
+                "manager": "gem",
+                "package": "path_expander",
+                "version": "~> 1.0"
+            },
+            {
+                "manager": "gem",
+                "package": "ruby_parser",
+                "version": "> 3.1.0, ~> 3.1"
+            },
+            {
+                "manager": "gem",
+                "package": "sexp_processor",
+                "version": "~> 4.8"
+            },
+            {
+                "manager": "gem",
+                "package": "flog",
+                "version": "1.0.2",
+                "target": true
+            }
+        ]
+    ]
+}

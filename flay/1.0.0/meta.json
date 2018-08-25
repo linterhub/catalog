@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "flay",
+    "description": "Flay analyzes ruby code for structural similarities. Differences in literal values, variable, class, method names, whitespace, programming style, braces vs do/end, etc are all ignored. Making this totally rad.",
+    "url": "http://ruby.sadi.st/",
+    "languages": [
+        "Ruby"
+    ],
+    "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "alex",
+    "description": "Catch insensitive, inconsiderate writing",
+    "url": "http://alexjs.com",
+    "languages": [
+        "Text"
+    ],
+    "license": "MIT"
+}

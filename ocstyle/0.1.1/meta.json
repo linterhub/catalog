@@ -1,0 +1,11 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "ocstyle",
+    "description": "Objective-C style checker",
+    "url": "https://www.github.com/Cue/ocstyle",
+    "languages": [
+        "Python",
+        "Objective-C"
+    ],
+    "license": "UNKNOWN"
+}

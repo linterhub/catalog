@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "sitevalidator",
+    "description": "Site is a CMS created by Mix Internet based on Ruby on Rails!",
+    "url": "https://github.com/mixinternet/site",
+    "languages": [
+        "Ruby"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "bandit",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "pip"
+            },
+            {
+                "manager": "pip",
+                "package": "PyYAML",
+                "version": ">=3.1.0"
+            },
+            {
+                "manager": "pip",
+                "package": "six",
+                "version": ">=1.9.0"
+            },
+            {
+                "manager": "pip",
+                "package": "stevedore",
+                "version": ">=1.5.0"
+            },
+            {
+                "manager": "pip",
+                "target": true
+            }
+        ]
+    ]
+}

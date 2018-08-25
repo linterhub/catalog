@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "coffeelint",
+    "description": "Lint your CoffeeScript",
+    "url": "http://www.coffeelint.org",
+    "languages": [
+        "CoffeeScript"
+    ],
+    "license": "MIT"
+}

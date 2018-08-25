@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "bandit",
+    "description": "A Python security linter from OpenStack Security",
+    "url": "https://wiki.openstack.org/wiki/Security/Projects/Bandit",
+    "languages": [
+        "Python"
+    ],
+    "license": null
+}

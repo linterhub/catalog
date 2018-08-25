@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "clinton",
+    "description": "JavaScript project style linter",
+    "url": "https://github.com/SamVerschueren/clinton#readme",
+    "languages": [
+        "JavaScript"
+    ],
+    "license": "MIT"
+}

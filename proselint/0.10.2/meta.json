@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "proselint",
+    "description": "A linter for prose.",
+    "url": "http://github.com/amperser/proselint",
+    "languages": [
+        "Markdown"
+    ],
+    "license": "BSD"
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "puppet-lint",
+    "description": null,
+    "url": "https://github.com/puppetlabs/puppet",
+    "languages": [
+        "Ruby"
+    ]
+}

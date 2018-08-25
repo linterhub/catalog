@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "phpmd",
+    "description": "Official version of PHPMD handled with Composer.",
+    "url": "",
+    "languages": [
+        "PHP"
+    ]
+}

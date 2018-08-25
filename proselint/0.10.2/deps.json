@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "proselint",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "pip"
+            },
+            {
+                "manager": "pip",
+                "package": "six"
+            },
+            {
+                "manager": "pip",
+                "package": "future"
+            },
+            {
+                "manager": "pip",
+                "package": "click"
+            },
+            {
+                "manager": "pip",
+                "target": true
+            }
+        ]
+    ]
+}

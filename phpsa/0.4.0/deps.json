@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "phpsa",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "nikic/php-parser",
+                "version": "~2.1.0"
+            },
+            {
+                "manager": "composer",
+                "package": "ovr/phpreflection",
+                "version": "~0.2.6"
+            },
+            {
+                "manager": "composer",
+                "package": "php",
+                "version": ">=5.5"
+            },
+            {
+                "manager": "composer",
+                "package": "phpdocumentor/reflection-docblock",
+                "version": "~2.0.4"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/console",
+                "version": "~2.7.0"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/event-dispatcher",
+                "version": "~2.7.5"
+            },
+            {
+                "manager": "composer",
+                "package": "ovr/phpsa",
+                "version": "0.4.0",
+                "target": true
+            }
+        ]
+    ]
+}

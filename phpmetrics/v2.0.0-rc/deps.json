@@ -1,0 +1,43 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "phpmetrics",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "ext-dom",
+                "version": "*"
+            },
+            {
+                "manager": "composer",
+                "package": "ext-tokenizer",
+                "version": "*"
+            },
+            {
+                "manager": "composer",
+                "package": "nikic/php-parser",
+                "version": "2.*"
+            },
+            {
+                "manager": "composer",
+                "package": "php",
+                "version": ">=5.4"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/console",
+                "version": "~2.5|3.*"
+            },
+            {
+                "manager": "composer",
+                "package": "phpmetrics/phpmetrics",
+                "version": "v2.0.0-rc",
+                "target": true
+            }
+        ]
+    ]
+}

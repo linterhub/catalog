@@ -1,0 +1,38 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "phpsa",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "nikic/php-parser",
+                "version": "~1.3.0"
+            },
+            {
+                "manager": "composer",
+                "package": "ovr/phpreflection",
+                "version": "~0.2.3"
+            },
+            {
+                "manager": "composer",
+                "package": "php",
+                "version": ">=5.3"
+            },
+            {
+                "manager": "composer",
+                "package": "symfony/console",
+                "version": "~2.5"
+            },
+            {
+                "manager": "composer",
+                "package": "ovr/phpsa",
+                "version": "0.2.1",
+                "target": true
+            }
+        ]
+    ]
+}

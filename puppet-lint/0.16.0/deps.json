@@ -1,0 +1,43 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "puppet-lint",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "gem"
+            },
+            {
+                "manager": "gem",
+                "package": "facter",
+                "version": "< 4, > 2.0.1"
+            },
+            {
+                "manager": "gem",
+                "package": "fast_gettext",
+                "version": "~> 1.1.2"
+            },
+            {
+                "manager": "gem",
+                "package": "hiera",
+                "version": "< 4, >= 3.2.1"
+            },
+            {
+                "manager": "gem",
+                "package": "locale",
+                "version": "~> 2.1"
+            },
+            {
+                "manager": "gem",
+                "package": "multi_json",
+                "version": "~> 1.10"
+            },
+            {
+                "manager": "gem",
+                "package": "puppet",
+                "version": "0.16.0",
+                "target": true
+            }
+        ]
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "radon",
+    "description": "Code Metrics in Python",
+    "url": "https://radon.readthedocs.org/",
+    "languages": [
+        "Python"
+    ],
+    "license": "MIT"
+}

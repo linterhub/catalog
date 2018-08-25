@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "sitevalidator",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "gem"
+            },
+            {
+                "manager": "gem",
+                "package": "site",
+                "version": "0.0.1.1",
+                "target": true
+            }
+        ]
+    ]
+}

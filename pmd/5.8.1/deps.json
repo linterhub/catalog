@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "pmd",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "chocolatey"
+            },
+            {
+                "manager": "chocolatey",
+                "package": "jdk8",
+                "version": ""
+            },
+            {
+                "manager": "chocolatey",
+                "package": "pmd",
+                "version": "5.8.1",
+                "target": true
+            }
+        ]
+    ]
+}

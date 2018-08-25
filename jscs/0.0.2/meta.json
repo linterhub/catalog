@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "jscs",
+    "description": "JavaScript Code Style",
+    "url": "http://jscs.info",
+    "languages": [
+        "JavaScript"
+    ],
+    "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "pug-lint",
+    "description": "An unopinionated and configurable linter and style checker for Pug (formerly Jade)",
+    "url": "https://github.com/pugjs/pug-lint",
+    "languages": [
+        "Jade"
+    ],
+    "license": "ISC"
+}

@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "remark-lint",
+    "description": "Lint markdown with remark",
+    "languages": [
+        "Markdown"
+    ],
+    "license": "MIT"
+}

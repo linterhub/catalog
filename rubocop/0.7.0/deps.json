@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "rubocop",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "gem"
+            },
+            {
+                "manager": "gem",
+                "package": "jaro_winkler",
+                "version": "~> 1.5.1"
+            },
+            {
+                "manager": "gem",
+                "package": "parallel",
+                "version": "~> 1.10"
+            },
+            {
+                "manager": "gem",
+                "package": "parser",
+                "version": "!= 2.5.1.1, >= 2.5"
+            },
+            {
+                "manager": "gem",
+                "package": "powerpack",
+                "version": "~> 0.1"
+            },
+            {
+                "manager": "gem",
+                "package": "rainbow",
+                "version": "< 4.0, >= 2.2.2"
+            },
+            {
+                "manager": "gem",
+                "package": "ruby-progressbar",
+                "version": "~> 1.7"
+            },
+            {
+                "manager": "gem",
+                "package": "unicode-display_width",
+                "version": ">= 1.0.1, ~> 1.0"
+            },
+            {
+                "manager": "gem",
+                "package": "rubocop",
+                "version": "0.7.0",
+                "target": true
+            }
+        ]
+    ]
+}

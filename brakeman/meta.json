@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "brakeman",
+    "description": "Brakeman detects security vulnerabilities in Ruby on Rails applications via static analysis.",
+    "url": "http://brakemanscanner.org",
+    "languages": [
+        "Ruby"
+    ],
+    "license": "MIT"
+}

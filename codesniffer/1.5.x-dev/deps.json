@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.linterhub.com/deps.json",
+    "name": "codesniffer",
+    "dependencies": [
+        [
+            {
+                "manager": "platform",
+                "package": "composer"
+            },
+            {
+                "manager": "composer",
+                "package": "ext-tokenizer",
+                "version": "*"
+            },
+            {
+                "manager": "composer",
+                "package": "php",
+                "version": ">=5.1.2"
+            },
+            {
+                "manager": "composer",
+                "package": "squizlabs/php_codesniffer",
+                "version": "1.5.x-dev",
+                "target": true
+            }
+        ]
+    ]
+}

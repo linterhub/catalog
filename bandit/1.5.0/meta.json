@@ -1,0 +1,10 @@
+{
+    "$schema": "https://schema.linterhub.com/meta.json",
+    "name": "bandit",
+    "description": "Security oriented static analyser for python code.",
+    "url": "https://bandit.readthedocs.io/en/latest/",
+    "languages": [
+        "Python"
+    ],
+    "license": ""
+}
